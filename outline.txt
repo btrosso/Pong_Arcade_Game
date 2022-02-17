@@ -1,0 +1,41 @@
+#    ***Breaking Down the Problem*** - My first attempt 
+#    * create two paddles
+#    -- create the paddles
+#    -- move the paddles to starting positions
+#    * move the paddles
+#    -- have the paddles move independently
+#    -- have them stop at the limits of the game screen
+#    * control the paddles using the keyboard
+#    -- set up the paddles to use keyboard input to move up and down
+#    * create pong ball (moves along a trajectory)
+#    -- create a single pong ball turtle
+#    -- have the ball move
+#    * create a score board and center dotted line
+#    -- create turtle to write score (may need two separate turtles depending on how the animation works (i.e. if it looks laggy)
+#    * detect collision with paddle
+#    -- detect when the pong ball collides with the paddles
+#    -- move pong ball along some other trajectory after collision with paddle
+#    * detect passing the paddle
+#    -- detect whether or not the pong ball has passed the paddle
+#   -- if so end the current round and update the scoreboard and set up the next round
+#    -- game goes to 10?
+#    
+#    * some way to end the game (play till what?
+
+- Possible Classes -
+* Paddle
+* PongBall
+* Scoreboard
+
+***GUIDED ATTEMPT***
+1. create the screen
+2. create and move a paddle
+3. create another paddle
+4. create the ball and make it move
+5. detect collision with wall and bounce
+6. detect collision with paddle
+7. detect when paddle misses
+8. keep score
+
+
+
